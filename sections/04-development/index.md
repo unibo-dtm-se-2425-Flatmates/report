@@ -5,8 +5,6 @@ nav_order: 5
 ---
 
 # Development
-<br>
-<br>
 
 ## 1. Distributed Version Control System (DVCS)
 
