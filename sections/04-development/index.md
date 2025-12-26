@@ -31,6 +31,8 @@ One thing that we have learned is that it would have been better to implement co
 
 ### 1.1.1 API Communication Flow
 
+![API Communication Flow](/report/pictures/API-communication-flow.png)
+
 ### 1.1.2 Data Formats
 
 JSON Request/Response Format: why JSON?
