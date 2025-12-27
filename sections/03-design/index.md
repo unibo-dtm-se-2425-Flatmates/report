@@ -28,7 +28,7 @@ and ease of maintenance.
 
 The system is composed of three main layers:
 
-### a. Presentation Layer (Frontend)
+### 1.1 Presentation Layer (Frontend)
 
 - **Technology:** Streamlit
 - **Responsibility:** Renders the user interface and handles user interactions. It  
@@ -48,7 +48,7 @@ The system is composed of three main layers:
 ```
 
 
-### b. Application Logic Layer (Backend)
+### 1.2 Application Logic Layer (Backend)
 
 - **Technology:** FastAPI with Uvicorn server
 - **Responsibility:** Exposes API endpoints. It processes incoming requests, enforces  
@@ -75,7 +75,7 @@ and orchestrates interactions with the database.
 - Queries SQLite database via SQL
 - Returns JSON responses to frontend
 
-### c. Data Persistence Layer
+### 1.3 Data Persistence Layer
 
 - **Technology:** SQLite (via Python sqlite3)
 - **Responsibility:** Stores all persistent data including user profiles, house configurations,  
