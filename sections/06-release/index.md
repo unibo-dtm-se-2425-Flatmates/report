@@ -8,7 +8,8 @@ nav_order: 7
 
 The **Flatmates** application is released as a composite package consisting of two primary components.
 
-## 1.1 Backend Service (APIs)
+## 1. Components
+### 1.1 Backend Service (APIs)
 
 - **Artifacts:** A Python application powered by FastAPI.
 - **Contents:**
@@ -17,7 +18,7 @@ The **Flatmates** application is released as a composite package consisting of t
   - **`flatmates.db`**: The SQLite database schema (initialized on first run).
 - **Target Environment:** A Python 3.8+ environment capable of running Uvicorn.
 
-## 1.2 Frontend Interface (Web App)
+### 1.2 Frontend Interface (Web App)
 
 - **Artifacts:** A Streamlit application.
 - **Contents:**
@@ -37,7 +38,7 @@ The project adheres to **Semantic Versioning (SemVer)** using the **MAJOR.MINOR.
 
 ### 2.2 Release Process
 
-The release workflow have been managed through **GitHub**, **serving as both the version control** system and the distribution platform for source code. With this logic:
+The release workflow have been managed through GitHub, serving as both the version control system and the distribution platform for source code. With this logic:
 
 1. **Tagging:** Stable releases are marked with git tags (e.g., v1.0.0).
 2. **Changelog:** Each release is accompanied by a release note detailing:

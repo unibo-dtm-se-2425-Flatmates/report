@@ -12,7 +12,7 @@ Flatmates failed to adopt Test-Driven Development (TDD) for critical business lo
 
 The testing approach should have followed this logic by including unit, integration, and system testing. Unit tests should describe their purpose and rationale, reporting success rate and coverage. Integration tests should identify the component pairs tested, explain the testing plan, and report success rate and coverage, specifying any test doubles used and the reasons for their choice. System tests should validate the system as a whole according to the acceptance criteria, including their rationale, plan, success rate, and coverage. If containerization tools were used, this section should explain how they supported testing in isolated or clean environments.
 
-Instead, the validation strategy for **Flatmates** was **designed to ensure that the core logic of the** application, particularly the debt simplification algorithm and house management features, functions correctly before deployment. We adopted a comprehensive testing strategy focused on the **Frontend**, **Backend** and **Database Testing**, leveraging **the** **pytest** framework and **TestClient** from FastAPI to simulate API requests without needing a running server.
+Instead, the validation strategy for **Flatmates** was designed to ensure that the core logic of the application, particularly the debt simplification algorithm and house management features, functions correctly before deployment. We adopted a comprehensive testing strategy focused on the **Frontend**, **Backend** and **Database** testing, leveraging the **pytest** framework and **TestClient** from FastAPI to simulate API requests without needing a running server.
 
 ### 1.1 Primary Framework: pytest
 
