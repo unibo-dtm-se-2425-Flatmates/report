@@ -38,5 +38,6 @@ This section outlines the roadmap for transforming **Flatmates** from a working 
 - **Native Mobile App:** Transition the frontend from Streamlit (which is optimized for data apps) to React Native. This would provide a true mobile-first experience with offline capabilities and smoother animations suitable for on-the-go expense logging.
 - **Analytics Dashboard:** Provide flatmates with insights into spending patterns (e.g., "We spend €X per month on groceries"). This could inform budgeting discussions.
 
+## 3. Conclusion
 The **Flatmates** project demonstrates the value of combining technical implementation with domain expertise. Giacomo's engineering rigor ensured the system was built on a solid technical foundation, while Matteo's business logic ensured the product actually solved real problems for real users. Even if the current version presents some limitations, the modular architecture and clean code make it straightforward to add the features outlined above. The project is well-positioned for future growth and could serve as a foundation for a commercial product targeting the shared housing market.
 
