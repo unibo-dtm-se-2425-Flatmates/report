@@ -34,3 +34,22 @@ Perhaps most importantly, I learned to navigate the ecosystem of third-party ser
 The collaboration with Matteo also taught me how technical implementation and business requirements must work hand-in-hand—his input on user needs and edge cases helped me refine the technical implementation significantly.
 
 
+## 2. Matteo Minnucci
+
+I was in charge of defining the business logic and understanding the user needs for Flatmates. My contribution focused on translating household management problems into technical requirements and ensuring the software's logic aligned with how flatmates actually need to manage expenses and settle debts.
+
+### 2.1 Strengths
+
+- **Debt Simplification Algorithm:** Together with Giacomo, we designed and validated the core algorithm that minimizes the number of transactions needed to settle all outstanding debts. I contributed to the conceptual design, while Giacomo handled the implementation and refinement.
+- **Domain Knowledge:** I conducted informal interviews with flatmates to understand pain points in shared living. This research informed key decisions, like implementing a flexible expense splitter and designing the dashboard to show actionable debt information immediately.
+- **Business Requirements and User Experience:** I focused on defining how the application should behave from the user's perspective. This included specifying the expense modeling logic—how expenses should be split, how reimbursements should work, and what edge cases needed to be handled. Giacomo's technical expertise was invaluable in translating these requirements into working code and identifying implementation constraints I hadn't considered.
+- **Report and Documentation:** I took the lead on writing project documentation and reports, explaining the business rationale behind design decisions, user stories, and the problem domain. When technical explanations were needed, Giacomo provided support in articulating architectural choices and technical trade-offs.
+
+### 2.2 Weaknesses
+
+- **Limited Technical Implementation:** While I designed the debt simplification algorithm the actual implementation was handled and revised by Giacomo. This meant that some of my assumptions had to be validated during the development process.
+- **Incomplete Shopping List Logic:** My initial specification for the shopping list was simplistic. I didn't anticipate edge cases like "what if someone buys a partial quantity?" or "how should items be prioritized?"
+
+### 2.3 What I Learned
+
+I realized that software is not just about code; it's about understanding the problem deeply. Before any implementation, I spent time thinking about the problem domain and user needs. This "business analysis" phase prevented costly rewrites later. I also learned that domain experts and engineers must collaborate continuously; a good idea in theory can fail in practice due to implementation constraints.
